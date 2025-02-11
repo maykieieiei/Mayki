@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%; 
+  }
+
+  .image-container img {
+    width: 100%; 
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .text-overlay {
+    position: absolute;
+    text-align: left;
+    top: 7%;
+    left: 4%;
+    color: white;
+    font-size: 50px;
+    padding: 90px;
+  }
+
+.header h1 {
+font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+      display: block;
+      color: rgb(0, 0, 0);
+      float: left;
+      height: 50px;
+      width: 99%;
+      padding: 10px;
+      background-color: #421818;
+}
+
+/* Style the topnav links */
+.topnav a {
+float: left;
+display: hidden;
+color: white;
+text-align: center;
+padding: 15px 15px;
+font-family: 'times new roman', serif, italic;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+background-color: #dfdfdf;
+color: black;
+}
+
+.leftcolumn {   
+float: left;
+width: 60%;
+height: 100%;
+}
+
+/* Right column */
+.rightcolumn {
+float: right;
+width: 40%;
+background-color: #f1f1f1;
+padding-left: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  float: left;
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+padding: 20px;
+text-align: center;
+background: #ddd;
+margin-top: 20px;
+}
+
+img {  
+  height: auto; 
+  width: 400px;
+  float: left; 
+  border-radius: 0%;
+}
+h1 {
+      color: black;
+      font-family: 'times new roman', serif;
+      font-size: 30px;
+  }
+
+  h2 { 
+      color: black;
+      font-family: 'times new roman', serif;
+  }
+
+  p { 
+      color: black;
+      text-align: left;
+      font-family: 'times new roman', serif, italic;
+      font-size: 115%;
+  }
+
+  a { 
+    color: black;
+  }
+
+  a:hover {
+    color: rgb(88, 119, 255);
+  }
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+.leftcolumn, .rightcolumn {   
+  width: 100%;
+  padding: 0;
+}
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+.topnav a {
+  float: none;
+  width: 100%;
+}
+}
+</style>
+</head>
+
+<body> 
+  <body>
+    
+    <div class="image-container">
+        <img src="Data Sources/motor2.jpg"> 
+        <link href="https://fonts.google.com/specimen/Cormorant+SC?preview.text=Top%2010%20Fastest%20Sportbikes%0A%5C&categoryFilters=Serif:%2FSerif%2FOld+Style+Garalde" rel="stylesheet">
+        <div class="text-overlay" style="font-size: 350%; font-style: bold ;">Top 10 Fastest Sportbikes
+            <p style="text-align: left; color: white; font-size:45%;"> The Ranks are depended in their Top Speed and build</p>
+            <p style="text-align: left; color: white; font-size:25%;"> Sources and more information about the research are linked <a href="-" target="_blank" style="color: white;">Here!</a>.</p>
+            <p style="text-align: left; color: white; font-size: 25%;"> A website created to learn about the basics of your favorite sportbike and to give</p>
+            <p style="text-align: left; color: white; font-size: 25%;"> you more information and what you want or need to know.</p>
+        </div>
+      </div>
+
+<div class="topnav">
+  <a href="HomeWebsite.html">Home</a>
+  <a class="active" href="Sources.html">Sources</a>
+  <a href="Moreinfo.html">More Information</a>
+  <a href="#" style="float:center">Articles</a>
+</div>
+
+<div class="leftcolumn"> 
+  <div class="card">
+    <img src="Data Sources/1DUCATI1.png" style="height: auto; width: 430px; float: left; padding: 17px; padding-bottom: 70px; border-radius: 5%;">
+    <h2 style="text-align: left;"> 10. Ducati Panigale V4 R </h2>
+    <h4 style="text-align: left;">Top Speed: 299 km/h </h4>
+        <p> Main Source of the <a href="eurohttps://www.ducati.com/us/en/bikes/panigale/panigale-v4-r"> Ducati Panigale V4 R</a></p>
+        <p> The Ducati Panigale V4 R costs 45,495 Dollars or 2,650,077 Pesos or 43,432 Euro. </p>
+        <p>  The Ducati Panigale V4 R was expected to be launched around February in the year of 2025. The Ducati Panigale V4 R is one of the 
+          fastest motorcycles in the world. It's equipped with modern electronics to handle its high performance.</p>
+  </div>
+</div>
+
+<div class="rightcolumn">
+  <div class="card">
+  <h1> What you need to know</h1>
+  <p> Sportbikes are also known as supersport motorcyles that are two-wheeled vehicles that are powered by engine, known for their speed
+     and build for high speed performances over comfort and safety. The main feature of the sportbikes are the high performance suspension
+      system, powerful powerful brakes and especially their fast acceleration. A sports motorcycle, sports bike, or sport bike is a
+       motorcycle designed and optimized for speed,  acceleration, braking, and cornering on asphalt concrete race tracks and roads.
+        They are mainly designed for performance at the expense of comfort, fuel economy, safety, noise reduction and storage in comparison
+         with other motorcycles.</p>
+  </div>
+</div>
+</body>
+</html>
