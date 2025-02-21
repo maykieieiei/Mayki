@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+}
+
+.image-container {
+      position: relative;
+      width: 100%;
+      max-width: 100%; 
+    }
+
+    .image-container img {
+      width: 100%; 
+      height: auto;
+    }
+
+    .text-overlay {
+      position: absolute;
+      text-align: left;
+      left: 5%;
+      margin-top: 60px;
+      color: white;
+      font-size: 50px;
+      padding: 10px;
+    }
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+      display: block;
+      color: rgb(0, 0, 0);
+      float: left;
+      height: 60px;
+      width: 100%;
+      padding: 7px;
+      background-color: #421818;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #dfdfdf;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+float: left;
+width: 60%;
+height: 100%;
+}
+
+/* Right column */
+.rightcolumn {
+float: right;
+width: 40%;
+background-color: #f1f1f1;
+padding-left: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  float: left;
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+img {  
+    height: auto; 
+    width: 500px;
+    float: left; 
+    padding: 10px; 
+}
+
+h1 {
+        color: black;
+        font-family: 'times new roman', serif;
+        font-size: 30px;
+    }
+
+    h2 { 
+        color: black;
+        font-family: 'times new roman', serif;
+    }
+
+    p { 
+        color: black;
+        text-align: left;
+        font-family: 'times new roman', serif, italic;
+        font-size: 115%;
+    }
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 100%) {
+  .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 100%) {
+  .leftcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: left;
+    width: 100%;
+  }
+}
+</style>
+</head>
+
+<body>
+    <div class="image-container">
+        <img src="Data Sources/motor2.jpg"> 
+        <link href="https://fonts.google.com/specimen/Cormorant+SC?preview.text=Top%2010%20Fastest%20Sportbikes%0A%5C&categoryFilters=Serif:%2FSerif%2FOld+Style+Garalde" rel="stylesheet">
+        <div class="text-overlay" style="font-size: 350%; font-style: bold ;">Top 10 Fastest Sportbikes
+            <p style="text-align: left; color: white; font-size:45%;"> The Ranks are depended in their Top Speed and build</p>
+            <p style="text-align: left; color: white; font-size:25%;"> and recent articles from the year 2023 to 2024 that are linked in our sources.</p>
+            <p style="text-align: left; color: white; font-size: 25%;"> A website created to learn about the basics of your favorite sportbike and to give</p>
+            <p style="text-align: left; color: white; font-size: 25%;"> you more information and what you want or need to know.</p>
+        </div>
+
+    <div class="topnav">
+        <a href="HomeWebsite.html">Home</a>
+        <a href="Sources.html">Sources and Informations</a>
+        <a class="active"href="HomeArticle.html" style="float:center">Articles</a>
+    </div>
