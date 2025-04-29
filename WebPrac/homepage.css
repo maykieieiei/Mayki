@@ -1,0 +1,213 @@
+body{
+    background-color: rgb(255, 255, 255);    
+}
+
+.topnav {
+    display: block;
+    color: rgb(255, 255, 255);
+    float: left;
+    height: 40px;
+    width: 99%;
+    padding: 7px;
+    background-color: #867070;
+    border-radius: 10px;
+}
+
+.topnav a{
+    text-align: center;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 25px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    font-style: bold;
+    color:#EDE8DC;
+    padding-right: 10px;
+}
+
+.topnav a:hover {
+    background-color: #E7E0C9;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+input[type=text] {
+  width: 30%;
+  height: auto;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: white;
+  padding: 12px 20px 12px 40px;
+
+}
+
+label{ 
+  color: #3F4F44;
+    font-size: 150%;
+    font-style: normal;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.button:hover{
+  color: #c74a73;
+}
+
+button{ 
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #ad8d8d;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 4px #999;
+}
+
+
+.button:active {
+  background-color: #522546;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background-color: white;
+  border-radius: 15px;
+  width: 91.2%;
+  height: 295px;
+}
+
+.header a{ 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 17px;
+  color: #385170;
+}
+
+.header a:hover{
+  color: #c74a73;
+}
+
+.row{
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+label{ 
+  font-family: cursive;
+}
+
+
+img {  
+    height: auto; 
+    width: 200px;
+    float: right;
+    padding: 25px;
+}
+
+
+h1{
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+h2{
+  color: #000000;
+  font-style: italic;
+  text-align: left;
+  padding: 10px;
+}
+
+p{
+    color: #000000;
+    font-size: 150%;
+    font-style: normal;    
+    padding-left: 15px;
+    text-align: left;
+}
+
+.leftcolumn {   
+    float: left;
+    width: 70%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.rightcolumn{
+    float: right;
+    width: 30%;
+    background-color: #f1f1f1;
+    padding-left: 10px;
+    border-radius: 25px;
+}
+
+.card {
+    background-color: white;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    float: center;
+    border-radius: 15px;
+  }
+
+  .center {
+    align-items: center;
+  }
+  
+
+  .board  {
+    background-color: #E7E0C9;
+    padding: 20px;
+    padding-right: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 15px;
+    height: auto;
+    width: 608px;
+  }
+  
+  .board2  {
+    background-color: #142D4C;
+    padding: 20px;
+    padding-right: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 15px;
+    height: auto;
+    width: 608px;
+  }
+
+  @media screen and (max-width: 100%) {
+    .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  @media screen and (max-width: 100%) {
+    .leftcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: left;
+      width: 100%;
+    }
+  }
+
